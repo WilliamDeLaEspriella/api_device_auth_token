@@ -1,4 +1,4 @@
-class ArticlesController < ApplicationController
+class ArticlesController < ApiController
     before_action :authenticate_user! 
 
     def index
